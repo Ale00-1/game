@@ -1,0 +1,164 @@
+[gd_scene load_steps=10 format=3 uid="uid://cg3uey5bsrups"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://proto_controller/proto_controller.tscn" id="1_8gbba"]
+[ext_resource type="Script" uid="uid://nm62bcecf528" path="res://Scripts/main.gd" id="1_kry3j"]
+[ext_resource type="Script" uid="uid://d0kb4cywr50iq" path="res://proto_controller/proto_controller.gd" id="2_jjvhh"]
+[ext_resource type="Script" uid="uid://bramfpogednyl" path="res://Scripts/Spawn_script.gd" id="3_kry3j"]
+[ext_resource type="PackedScene" uid="uid://dc1jaunofnr6n" path="res://Scenes/skeleton_enemy.tscn" id="4_jjvhh"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_h2yge"]
+sky_material = SubResource("ProceduralSkyMaterial_0xm2m")
+
+[sub_resource type="Environment" id="Environment_1bvp3"]
+background_mode = 2
+sky = SubResource("Sky_h2yge")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_7mycd"]
+vertices = PackedVector3Array(-49.5, 0.34558392, -4, -7, 0.34558392, -4, -7, 0.34558392, -6, -5.25, 0.34558392, -6.25, -5.5, 0.34558392, -49.5, -49.5, 0.34558392, -49.5, 11.25, 0.34558392, -6.25, 11.5, 0.34558392, -49.5, 13, 0.34558392, -6, 13, 0.34558392, -4, 49.5, 0.34558392, -4, 49.5, 0.34558392, -49.5, 0.5, 0.34558392, -5, 0.5, 0.34558392, -4.25, 1.75, 0.34558392, -4.25, 5.5, 0.34558392, -5, 1.75, 0.5955839, 0, 1.75, 0.5955839, 0.5, 5.5, 0.34558392, 0.25, -0.5, 1.8455839, 0.25, -0.25, 1.8455839, -3.25, -0.5, 1.8455839, -5.25, -6, 1.8455839, -5.25, 1.75, 0.5955839, -3.25, -6, 1.8455839, 5.75, -0.5, 1.8455839, 5.75, 0.625, 1.5955839, 0.125, 6.75, 0.34558392, -5, 6.75, 0.34558392, -4.25, 7.75, 0.34558392, -4.25, 11.5, 0.34558392, -5, 7.75, 0.5955839, -3.25, 6.5, 1.5955839, -3.25, 6.5, 1.5955839, -0.25, 7.75, 0.5955839, -0.25, 0.5, 0.34558392, 6.5, -1.25, 0.34558392, 6.75, -1, 0.34558392, 49.5, 1.75, 0.34558392, 1, 13, 0.34558392, 0.75, 11.75, 0.34558392, 1, 49.5, 0.34558392, 49.5, 49.5, 0.34558392, -1.25, 5.75, 0.34558392, 1, 0.5, 0.34558392, 1, 13, 0.34558392, -1.25, 7.75, 0.34558392, 0.75, -49.5, 0.34558392, 4.5, -7, 0.34558392, 4.5, -7, 0.34558392, 6.5, -5.5, 0.34558392, 49.5, -5.25, 0.34558392, 6.75, -49.5, 0.34558392, 49.5)
+polygons = [PackedInt32Array(2, 1, 0), PackedInt32Array(3, 2, 4), PackedInt32Array(4, 2, 5), PackedInt32Array(5, 2, 0), PackedInt32Array(3, 4, 6), PackedInt32Array(6, 4, 7), PackedInt32Array(10, 9, 8), PackedInt32Array(8, 6, 10), PackedInt32Array(10, 6, 7), PackedInt32Array(10, 7, 11), PackedInt32Array(13, 12, 14), PackedInt32Array(14, 12, 15), PackedInt32Array(18, 17, 16), PackedInt32Array(20, 19, 21), PackedInt32Array(21, 19, 22), PackedInt32Array(23, 14, 15), PackedInt32Array(16, 23, 18), PackedInt32Array(18, 23, 15), PackedInt32Array(25, 24, 19), PackedInt32Array(19, 24, 22), PackedInt32Array(16, 26, 23), PackedInt32Array(23, 26, 19), PackedInt32Array(23, 19, 20), PackedInt32Array(28, 27, 29), PackedInt32Array(29, 27, 30), PackedInt32Array(34, 33, 31), PackedInt32Array(31, 33, 32), PackedInt32Array(37, 36, 35), PackedInt32Array(38, 17, 18), PackedInt32Array(40, 39, 35), PackedInt32Array(35, 39, 42), PackedInt32Array(35, 42, 37), PackedInt32Array(37, 42, 41), PackedInt32Array(18, 43, 38), PackedInt32Array(38, 43, 35), PackedInt32Array(31, 29, 30), PackedInt32Array(35, 44, 38), PackedInt32Array(34, 31, 40), PackedInt32Array(40, 31, 30), PackedInt32Array(39, 45, 42), PackedInt32Array(46, 34, 40), PackedInt32Array(46, 40, 43), PackedInt32Array(43, 40, 35), PackedInt32Array(0, 1, 47), PackedInt32Array(47, 1, 48), PackedInt32Array(9, 10, 45), PackedInt32Array(45, 10, 42), PackedInt32Array(47, 48, 49), PackedInt32Array(51, 50, 49), PackedInt32Array(49, 50, 52), PackedInt32Array(49, 52, 47), PackedInt32Array(51, 36, 50), PackedInt32Array(50, 36, 37)]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_kry3j")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_1bvp3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="ProtoController" parent="." instance=ExtResource("1_8gbba")]
+transform = Transform3D(0.9, 0, 0, 0, 0.9, 0, 0, 0, 0.9, 4.8, 9.685755e-08, 13.900001)
+script = ExtResource("2_jjvhh")
+can_sprint = true
+input_left = "move_left"
+input_right = "move_right"
+input_forward = "move_forward"
+input_back = "move_backwards"
+input_jump = "jump"
+
+[node name="Camera3D" type="Camera3D" parent="ProtoController"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 5)
+current = true
+
+[node name="Spawn Area" type="Node3D" parent="ProtoController"]
+script = ExtResource("3_kry3j")
+
+[node name="Point1" type="Node3D" parent="ProtoController/Spawn Area"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11, 3.154, 10.222)
+
+[node name="Point2" type="Node3D" parent="ProtoController/Spawn Area"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.714106, 2.110667, -9.000111)
+
+[node name="Timer" type="Timer" parent="ProtoController/Spawn Area"]
+wait_time = 0.7
+autostart = true
+
+[node name="NavigationAgent3D" type="NavigationAgent3D" parent="ProtoController"]
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.1)
+navigation_mesh = SubResource("NavigationMesh_7mycd")
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="NavigationRegion3D"]
+use_collision = true
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(0.15, 0, 0, 0, 2.73, 0, 0, 0, 0.9, -6.3, 0.6550001, -2.605)
+size = Vector3(1, 0.6, 6.4)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(-1.1802076e-09, 0, -0.97199994, 0, 8.9434805, 0, 0.027000003, 0, -4.2487468e-08, -3.2150002, 0.55257046, -5.5495)
+size = Vector3(1, 0.2, 6.4)
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(0.15, 0, 0, 0, 2.73, 0, 0, 0, 0.9, -0.099999905, 0.6550001, -2.605)
+size = Vector3(1, 0.6, 6.4)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(0.15, 0, 0, 0, 2.73, 0, 0, 0, 0.9, -0.1, 0.6550001, -2.605)
+size = Vector3(1, 0.6, 6.4)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(-1.1802076e-09, 0, -0.97199994, 0, 8.9434805, 0, 0.027000004, 0, -4.2487468e-08, 2.985, 0.55257046, -5.5495)
+size = Vector3(1, 0.2, 6.4)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.15, 0.59999996, -1.75)
+size = Vector3(1.9, 1.6, 3.9)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D/CSGBox3D4"]
+transform = Transform3D(0.76604444, 0.6427876, 0, -0.6427876, 0.76604444, 0, 0, 0, 1, 0.48830223, 0.56786054, 0)
+operation = 2
+size = Vector3(3.2, 1.6, 4)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(-1.1802076e-09, 0, -0.97199994, 0, 8.9434805, 0, 0.027000003, 0, -4.2487468e-08, 9.185, 0.55257046, -5.5495)
+size = Vector3(1, 0.2, 6.4)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(0.15, 0, 0, 0, 2.73, 0, 0, 0, 0.9, 12.300001, 0.6550001, -2.605)
+size = Vector3(1, 0.6, 6.4)
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(0.15, 0, 0, 0, 2.73, 0, 0, 0, 0.9, 6.1000004, 0.4550001, -2.605)
+size = Vector3(1, 0.6, 6.4)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 0.099999964, 0, 0, 0, 1, -3.175, 1.5, -2.5600002)
+size = Vector3(6.3, 1, 5.8)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D/CSGBox3D3"]
+transform = Transform3D(0.7150727, -0.49548098, 0.03061296, 0.40102896, 0.88442516, -0.012970853, -0.015326671, 0.024465624, 1.0888727, 2.9963374, 0.029716492, 0.9414724)
+operation = 2
+size = Vector3(0.8, 1, 3.8)
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 0.099999964, 0, 0, 0, 1, -3.175, 1.5, 3.24)
+size = Vector3(6.3, 1, 5.8)
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9499998, 0.79999983, -1.6)
+size = Vector3(1.9, 1.6, 4)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D/CSGBox3D12"]
+transform = Transform3D(0.76604444, 0.6427876, 0, -0.6427876, 0.76604444, 0, 0, 0, 1, 0.48830223, 0.56786054, 0)
+operation = 2
+size = Vector3(3.2, 1.6, 4)
+
+[node name="CSGBox3D13" type="CSGBox3D" parent="NavigationRegion3D/CSGCombiner3D"]
+transform = Transform3D(0.76604444, 0.6427876, 0, -0.6427876, 0.76604444, 0, 0, 0, 1, 1.9, -0.7, -1.55)
+size = Vector3(1, 1, 3.9)
+
+[node name="Suelo" type="CSGBox3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 0, 0, 7.681339, 0, 0, 0, 1, 0, -0.5145502, 0)
+use_collision = true
+size = Vector3(100, 0.1, 100)
+
+[node name="skeleton_enemy" parent="NavigationRegion3D" instance=ExtResource("4_jjvhh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8, 0, 3.1)
+player_path = NodePath("../../ProtoController")
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HitRect" type="ColorRect" parent="UI"]
+visible = false
+layout_mode = 0
+offset_left = -723.0
+offset_top = -407.0
+offset_right = 871.0
+offset_bottom = 503.0
+color = Color(0.75686276, 0.07450981, 0.22352941, 0.39215687)
+
+[connection signal="player_hit" from="ProtoController" to="." method="_on_proto_controller_player_hit"]
+[connection signal="timeout" from="ProtoController/Spawn Area/Timer" to="ProtoController/Spawn Area" method="_on_timer_timeout"]

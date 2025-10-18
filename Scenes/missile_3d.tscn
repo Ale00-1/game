@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://ciku2l6nw1vdo"]
+
+[ext_resource type="Script" uid="uid://h8pwp7ubls5q" path="res://Scripts/missile_3d.gd" id="1_w1vst"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_w1vst"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r1nor"]
+albedo_color = Color(0.83576, 0.26935622, 0.5517073, 1)
+metallic = 1.0
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_iw8hq"]
+
+[node name="Missile3d" type="Area3D"]
+script = ExtResource("1_w1vst")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.5896953e-09, -0.21, 0, 0.105, -9.179391e-09, 0, 0, 0, 0.09999996, 0, 0, 0)
+mesh = SubResource("CylinderMesh_w1vst")
+skeleton = NodePath("")
+surface_material_override/0 = SubResource("StandardMaterial3D_r1nor")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(-4.5896957e-09, -0.21000001, 0, 0.105000004, -9.1793915e-09, 0, 0, 0, 0.099999964, 0, 0, 0)
+shape = SubResource("CylinderShape3D_iw8hq")
