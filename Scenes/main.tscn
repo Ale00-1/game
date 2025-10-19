@@ -156,8 +156,8 @@ visible = false
 layout_mode = 0
 offset_left = -723.0
 offset_top = -407.0
-offset_right = 871.0
-offset_bottom = 503.0
+offset_right = 1335.0
+offset_bottom = 815.0
 color = Color(0.75686276, 0.07450981, 0.22352941, 0.39215687)
 
 [connection signal="player_hit" from="ProtoController" to="." method="_on_proto_controller_player_hit"]
