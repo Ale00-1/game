@@ -1,0 +1,402 @@
+[gd_scene load_steps=131 format=3 uid="uid://cx4mi1btnh71f"]
+
+[ext_resource type="PackedScene" uid="uid://dh8wgvxlqo2lp" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/cloud_big.gltf" id="1_5w8xc"]
+[ext_resource type="PackedScene" uid="uid://deup4copixjhg" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/cloud_small.gltf" id="2_of10n"]
+[ext_resource type="PackedScene" uid="uid://don2vj53xv6ep" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_A.gltf" id="3_ax5vb"]
+[ext_resource type="PackedScene" uid="uid://c2xtg137ef74n" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_A_trees.gltf" id="4_qjjpm"]
+[ext_resource type="PackedScene" uid="uid://dkgngfms6d84e" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_B.gltf" id="5_m0abb"]
+[ext_resource type="PackedScene" uid="uid://df8s0euqhn8jo" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_B_trees.gltf" id="6_2wsig"]
+[ext_resource type="PackedScene" uid="uid://dxblnxg6pobjp" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_C.gltf" id="7_uwavn"]
+[ext_resource type="PackedScene" uid="uid://dasvea5ts3lbx" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hills_C_trees.gltf" id="8_pfa6y"]
+[ext_resource type="PackedScene" uid="uid://t36fyvbt44nq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hill_single_A.gltf" id="9_ge7ef"]
+[ext_resource type="PackedScene" uid="uid://dshtpj6fv82dk" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hill_single_B.gltf" id="10_o7pdq"]
+[ext_resource type="PackedScene" uid="uid://cs7jknlkbx5kh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/hill_single_C.gltf" id="11_y2o3x"]
+[ext_resource type="PackedScene" uid="uid://dxn8tqpo5auqw" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_A.gltf" id="12_l2n45"]
+[ext_resource type="PackedScene" uid="uid://bsrcpoxsge4y4" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_A_grass.gltf" id="13_xucum"]
+[ext_resource type="PackedScene" uid="uid://cqqsi3kcs2vcj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_A_grass_trees.gltf" id="14_bhtla"]
+[ext_resource type="PackedScene" uid="uid://etbtbwt0t7fj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_B.gltf" id="15_1dnbs"]
+[ext_resource type="PackedScene" uid="uid://tsmbephpgqym" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_B_grass.gltf" id="16_qw0pw"]
+[ext_resource type="PackedScene" uid="uid://cccyinoiryent" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_B_grass_trees.gltf" id="17_5v227"]
+[ext_resource type="PackedScene" uid="uid://dyqbek72af2ml" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_C.gltf" id="18_j7p5i"]
+[ext_resource type="PackedScene" uid="uid://clbpq0txulx5x" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_C_grass.gltf" id="19_od18k"]
+[ext_resource type="PackedScene" uid="uid://b4ny56gabjsds" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/mountain_C_grass_trees.gltf" id="20_mlbqq"]
+[ext_resource type="PackedScene" uid="uid://die67nliiee3l" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/rock_single_A.gltf" id="21_rbfiw"]
+[ext_resource type="PackedScene" uid="uid://dkyl0ab2vhhet" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/rock_single_B.gltf" id="22_pn11p"]
+[ext_resource type="PackedScene" uid="uid://ci6g2wgwwj6si" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/rock_single_C.gltf" id="23_6gegy"]
+[ext_resource type="PackedScene" uid="uid://d4dj52sgv626u" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/rock_single_D.gltf" id="24_dvffc"]
+[ext_resource type="PackedScene" uid="uid://msmfejaxrxtg" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/rock_single_E.gltf" id="25_6fhd2"]
+[ext_resource type="PackedScene" uid="uid://b2n05rbpmxxar" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_A_cut.gltf" id="26_5m0kk"]
+[ext_resource type="PackedScene" uid="uid://dxvcxd5g8b15f" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_A_large.gltf" id="27_2y7tr"]
+[ext_resource type="PackedScene" uid="uid://b3dh6mksfe2hi" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_A_medium.gltf" id="28_tcbod"]
+[ext_resource type="PackedScene" uid="uid://pu2ouh27o1t1" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_A_small.gltf" id="29_p0yeh"]
+[ext_resource type="PackedScene" uid="uid://brx1w4x4x3006" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_B_cut.gltf" id="30_4tues"]
+[ext_resource type="PackedScene" uid="uid://rnuj3ukrgmer" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_B_large.gltf" id="31_8ik5b"]
+[ext_resource type="PackedScene" uid="uid://ct73pe7ofpnxl" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_B_medium.gltf" id="32_38ia1"]
+[ext_resource type="PackedScene" uid="uid://dbnbq48g2icx5" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/trees_B_small.gltf" id="33_wrdld"]
+[ext_resource type="PackedScene" uid="uid://j1ysimn0b75j" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/tree_single_A.gltf" id="34_v5s2t"]
+[ext_resource type="PackedScene" uid="uid://yi74hgbdlm43" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/tree_single_A_cut.gltf" id="35_h86xy"]
+[ext_resource type="PackedScene" uid="uid://dl3vp6l2e4brg" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/tree_single_B.gltf" id="36_qq3al"]
+[ext_resource type="PackedScene" uid="uid://cnngpif4eejp0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/tree_single_B_cut.gltf" id="37_rabjp"]
+[ext_resource type="PackedScene" uid="uid://b81wjey3mqad0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/waterlily_A.gltf" id="38_e4x2l"]
+[ext_resource type="PackedScene" uid="uid://cf3jyifdx0eem" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/waterlily_B.gltf" id="39_p2dh3"]
+[ext_resource type="PackedScene" uid="uid://dnhdfflfynq5" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/waterplant_A.gltf" id="40_5vabu"]
+[ext_resource type="PackedScene" uid="uid://clbuq2y6x1aca" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/waterplant_B.gltf" id="41_tfsei"]
+[ext_resource type="PackedScene" uid="uid://clrsaajt4by8l" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/nature/waterplant_C.gltf" id="42_jun8p"]
+[ext_resource type="PackedScene" uid="uid://brljlh37t7ypv" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/barrel.gltf" id="43_b4axe"]
+[ext_resource type="PackedScene" uid="uid://cqcak52bty6io" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/bucket_arrows.gltf" id="44_y0qj2"]
+[ext_resource type="PackedScene" uid="uid://dem2w7v8c3ba1" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/bucket_empty.gltf" id="45_vjxjx"]
+[ext_resource type="PackedScene" uid="uid://cu47bfn41vqh7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/bucket_water.gltf" id="46_52l4s"]
+[ext_resource type="PackedScene" uid="uid://djodspwox1l0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_A_big.gltf" id="47_8scb2"]
+[ext_resource type="PackedScene" uid="uid://6tqeiov6dicf" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_A_small.gltf" id="48_300ie"]
+[ext_resource type="PackedScene" uid="uid://b0f8j717f6u1e" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_B_big.gltf" id="49_uerjj"]
+[ext_resource type="PackedScene" uid="uid://cd0t85nnp5a0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_B_small.gltf" id="50_oqawc"]
+[ext_resource type="PackedScene" uid="uid://6bt7v1galemp" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_long_A.gltf" id="51_vlnu1"]
+[ext_resource type="PackedScene" uid="uid://b377qsxhit64h" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_long_B.gltf" id="52_fa338"]
+[ext_resource type="PackedScene" uid="uid://c5pc1hvmjygrd" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_long_C.gltf" id="53_4h674"]
+[ext_resource type="PackedScene" uid="uid://7o3xty64b2vr" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_long_empty.gltf" id="54_ix2jo"]
+[ext_resource type="PackedScene" uid="uid://hc265543qhf7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/crate_open.gltf" id="55_dft8f"]
+[ext_resource type="PackedScene" uid="uid://db8151jgwltqt" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/flag_blue.gltf" id="56_mi0jh"]
+[ext_resource type="PackedScene" uid="uid://bfoch7u41drkf" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/flag_green.gltf" id="57_sid3j"]
+[ext_resource type="PackedScene" uid="uid://byeuxe3ixjrm" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/flag_red.gltf" id="58_0oc2i"]
+[ext_resource type="PackedScene" uid="uid://derp57no6dcq0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/flag_yellow.gltf" id="59_0q2db"]
+[ext_resource type="PackedScene" uid="uid://dn1ui0xdygqke" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/ladder.gltf" id="60_korbe"]
+[ext_resource type="PackedScene" uid="uid://7gdmcjqgpng" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/pallet.gltf" id="61_0io6y"]
+[ext_resource type="PackedScene" uid="uid://8q2uu6epn1gb" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/resource_lumber.gltf" id="62_svt7d"]
+[ext_resource type="PackedScene" uid="uid://1384isvvk7ny" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/resource_stone.gltf" id="63_koutc"]
+[ext_resource type="PackedScene" uid="uid://cgf4gqjx0okf7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/sack.gltf" id="64_4njsk"]
+[ext_resource type="PackedScene" uid="uid://fruyesdqu3mj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/target.gltf" id="65_0kwq2"]
+[ext_resource type="PackedScene" uid="uid://ctdfuouo1worj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/tent.gltf" id="66_qkftt"]
+[ext_resource type="PackedScene" uid="uid://b5ejfw0egpifg" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/weaponrack.gltf" id="67_wd072"]
+[ext_resource type="PackedScene" uid="uid://sm4ytl0a5fpo" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/decoration/props/wheelbarrow.gltf" id="68_jfg1c"]
+[ext_resource type="PackedScene" uid="uid://dy6ytpj0wtgeb" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_grass.gltf" id="69_6xxsr"]
+[ext_resource type="PackedScene" uid="uid://cd1jdipbwdgam" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_grass_bottom.gltf" id="70_b3h5k"]
+[ext_resource type="ArrayMesh" uid="uid://baqd3qk4rvalw" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/obj/tiles/base/hex_grass.obj" id="70_of10n"]
+[ext_resource type="PackedScene" uid="uid://bnl8iqsan603e" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_grass_sloped_high.gltf" id="71_m626w"]
+[ext_resource type="PackedScene" uid="uid://dw5owut0om6nu" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_grass_sloped_low.gltf" id="72_j2ke0"]
+[ext_resource type="PackedScene" uid="uid://dsoll2bukheha" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/base/hex_water.gltf" id="73_gx3g2"]
+[ext_resource type="PackedScene" uid="uid://bu0a8ggosl53e" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_A.gltf" id="74_aoft8"]
+[ext_resource type="PackedScene" uid="uid://cy3s6jggu4jne" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_A_sloped_high.gltf" id="75_l807j"]
+[ext_resource type="PackedScene" uid="uid://cr58fkj5wqaoj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_A_sloped_low.gltf" id="76_y364p"]
+[ext_resource type="PackedScene" uid="uid://b1ykyj7w22gqj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_B.gltf" id="77_uhsb5"]
+[ext_resource type="PackedScene" uid="uid://byiffmpl8ev4j" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_C.gltf" id="78_huyvu"]
+[ext_resource type="PackedScene" uid="uid://cgk7miju6gnd0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_D.gltf" id="79_4rtba"]
+[ext_resource type="PackedScene" uid="uid://dfhoaik14igc4" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_E.gltf" id="80_xa07v"]
+[ext_resource type="PackedScene" uid="uid://bw8wr02y07080" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_F.gltf" id="81_lpb51"]
+[ext_resource type="PackedScene" uid="uid://d4bj4voiel243" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_G.gltf" id="82_s7d3n"]
+[ext_resource type="PackedScene" uid="uid://y53ukm1qnm4w" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_H.gltf" id="83_7i6q4"]
+[ext_resource type="PackedScene" uid="uid://d6hoff1eaa7n" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_I.gltf" id="84_6xre7"]
+[ext_resource type="PackedScene" uid="uid://d2jn1hmqllbqw" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_J.gltf" id="85_jew61"]
+[ext_resource type="PackedScene" uid="uid://bym7l3hpffoje" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_K.gltf" id="86_cwbae"]
+[ext_resource type="PackedScene" uid="uid://cevi8c8vmqqx6" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_L.gltf" id="87_kjof0"]
+[ext_resource type="PackedScene" uid="uid://8g0q6gwb0ska" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/roads/hex_road_M.gltf" id="88_g8g0k"]
+[ext_resource type="PackedScene" uid="uid://o7ksgwsae6s" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_A.gltf" id="89_o07dg"]
+[ext_resource type="PackedScene" uid="uid://c56ldynaepg6r" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_A_curvy.gltf" id="90_s4g4k"]
+[ext_resource type="PackedScene" uid="uid://bpg3ybqljtnt5" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_B.gltf" id="91_saijc"]
+[ext_resource type="PackedScene" uid="uid://cvgrep4scebjd" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_C.gltf" id="92_flerq"]
+[ext_resource type="PackedScene" uid="uid://b1pvnc02eopsi" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_crossing_A.gltf" id="93_gw3gb"]
+[ext_resource type="PackedScene" uid="uid://be6ljwgss3yta" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_crossing_B.gltf" id="94_2ferd"]
+[ext_resource type="PackedScene" uid="uid://pl6nxp4vni1p" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_D.gltf" id="95_hflgq"]
+[ext_resource type="PackedScene" uid="uid://cyd710oa0e5o0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_E.gltf" id="96_elvpb"]
+[ext_resource type="PackedScene" uid="uid://g716b8er5xh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_F.gltf" id="97_hlw4p"]
+[ext_resource type="PackedScene" uid="uid://ncn5lxsp7022" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_G.gltf" id="98_newgk"]
+[ext_resource type="PackedScene" uid="uid://ddnk0mog3dyix" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_H.gltf" id="99_5uwve"]
+[ext_resource type="PackedScene" uid="uid://dt6kul6ui3ml7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_I.gltf" id="100_xo5c4"]
+[ext_resource type="PackedScene" uid="uid://dhw4tlc5rhxdr" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_J.gltf" id="101_w7ov7"]
+[ext_resource type="PackedScene" uid="uid://cive8v8prglaq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_K.gltf" id="102_gk8kg"]
+[ext_resource type="PackedScene" uid="uid://bauhkfprvlcsh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/hex_river_L.gltf" id="103_5g8q7"]
+[ext_resource type="PackedScene" uid="uid://cqgbpm6iws6w5" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_A_curvy_waterless.gltf" id="104_ksoyl"]
+[ext_resource type="PackedScene" uid="uid://bkycayuvuflqs" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_A_waterless.gltf" id="105_ao264"]
+[ext_resource type="PackedScene" uid="uid://cjhgkno8gm2fb" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_B_waterless.gltf" id="106_iyuba"]
+[ext_resource type="PackedScene" uid="uid://bgyjpj3qrvyq7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_crossing_A_waterless.gltf" id="107_fh72n"]
+[ext_resource type="PackedScene" uid="uid://d1q7rnu0arfr8" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_crossing_B_waterless.gltf" id="108_qhafp"]
+[ext_resource type="PackedScene" uid="uid://b4jmyujijxxwe" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_C_waterless.gltf" id="109_ml6ue"]
+[ext_resource type="PackedScene" uid="uid://cm817kyegqs2p" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_D_waterless.gltf" id="110_l772y"]
+[ext_resource type="PackedScene" uid="uid://cyljfocpxu7ow" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_E_waterless.gltf" id="111_ufeov"]
+[ext_resource type="PackedScene" uid="uid://c6a1he6ep0hmb" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_F_waterless.gltf" id="112_7rhud"]
+[ext_resource type="PackedScene" uid="uid://bqrwd1ahh8lpt" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_G_waterless.gltf" id="113_qhv07"]
+[ext_resource type="PackedScene" uid="uid://c6chyt4ie7ob1" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_H_waterless.gltf" id="114_cgunp"]
+[ext_resource type="PackedScene" uid="uid://bw2wv5ljsw1o1" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_I_waterless.gltf" id="115_q7jq6"]
+[ext_resource type="PackedScene" uid="uid://f6h0y6vna5dl" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_J_waterless.gltf" id="116_hlu7c"]
+[ext_resource type="PackedScene" uid="uid://mkxyio87hms7" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_K_waterless.gltf" id="117_1q05f"]
+[ext_resource type="PackedScene" uid="uid://ctlqienfl6kr0" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/rivers/waterless/hex_river_L_waterless.gltf" id="118_t60wv"]
+[ext_resource type="PackedScene" uid="uid://k27x343uqwdh" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/hex_coast_A.gltf" id="119_2x2pe"]
+[ext_resource type="PackedScene" uid="uid://cxntqcvb1m6jt" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/hex_coast_B.gltf" id="120_cjhtp"]
+[ext_resource type="PackedScene" uid="uid://buaxgoym2akvf" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/hex_coast_C.gltf" id="121_8sr6f"]
+[ext_resource type="PackedScene" uid="uid://b47v62un8fd4v" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/hex_coast_D.gltf" id="122_owapo"]
+[ext_resource type="PackedScene" uid="uid://c33ivcj4yv0rq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/hex_coast_E.gltf" id="123_sa8qu"]
+[ext_resource type="PackedScene" uid="uid://cbb1xgei8m22o" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/waterless/hex_coast_A_waterless.gltf" id="124_t8b06"]
+[ext_resource type="PackedScene" uid="uid://dgig33ssxe8yk" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/waterless/hex_coast_B_waterless.gltf" id="125_yc1kb"]
+[ext_resource type="PackedScene" uid="uid://hultmn0bwvpj" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/waterless/hex_coast_C_waterless.gltf" id="126_egod0"]
+[ext_resource type="PackedScene" uid="uid://cqc4slry20wl2" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/waterless/hex_coast_D_waterless.gltf" id="127_fgyn0"]
+[ext_resource type="PackedScene" uid="uid://cx2u4k2bonfsq" path="res://Assets/KayKit_Medieval_Hexagon_Pack_1.0_FREE/Assets/gltf/tiles/coast/waterless/hex_coast_E_waterless.gltf" id="128_g77ij"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ax5vb"]
+points = PackedVector3Array(1, 1, 0, -1, 1, 0, 0, 1, 1.1, 0, 1, -1.1, -1, 1, -0.5, -1, 1, 0.5, 1, 1, 0.5, 1, 1, -0.5, 1, 0, 0, -1, 0, 0, 0, 0, 1.1, 0, 0, -1.1, -1, 0, -0.5, -1, 0, 0.5, 1, 0, 0.5, 1, 0, -0.5)
+
+[node name="Tiles" type="Node3D"]
+
+[node name="cloud_big2" parent="." instance=ExtResource("1_5w8xc")]
+
+[node name="cloud_small2" parent="." instance=ExtResource("2_of10n")]
+
+[node name="hills_A2" parent="." instance=ExtResource("3_ax5vb")]
+
+[node name="hills_A_trees2" parent="." instance=ExtResource("4_qjjpm")]
+
+[node name="hills_B2" parent="." instance=ExtResource("5_m0abb")]
+
+[node name="hills_B_trees2" parent="." instance=ExtResource("6_2wsig")]
+
+[node name="hills_C2" parent="." instance=ExtResource("7_uwavn")]
+
+[node name="hills_C_trees2" parent="." instance=ExtResource("8_pfa6y")]
+
+[node name="hill_single_A2" parent="." instance=ExtResource("9_ge7ef")]
+
+[node name="hill_single_B2" parent="." instance=ExtResource("10_o7pdq")]
+
+[node name="hill_single_C2" parent="." instance=ExtResource("11_y2o3x")]
+
+[node name="mountain_A2" parent="." instance=ExtResource("12_l2n45")]
+
+[node name="mountain_A_grass2" parent="." instance=ExtResource("13_xucum")]
+
+[node name="mountain_A_grass_trees2" parent="." instance=ExtResource("14_bhtla")]
+
+[node name="mountain_B2" parent="." instance=ExtResource("15_1dnbs")]
+
+[node name="mountain_B_grass2" parent="." instance=ExtResource("16_qw0pw")]
+
+[node name="mountain_B_grass_trees2" parent="." instance=ExtResource("17_5v227")]
+
+[node name="mountain_C2" parent="." instance=ExtResource("18_j7p5i")]
+
+[node name="mountain_C_grass2" parent="." instance=ExtResource("19_od18k")]
+
+[node name="mountain_C_grass_trees2" parent="." instance=ExtResource("20_mlbqq")]
+
+[node name="rock_single_A2" parent="." instance=ExtResource("21_rbfiw")]
+
+[node name="rock_single_B2" parent="." instance=ExtResource("22_pn11p")]
+
+[node name="rock_single_C2" parent="." instance=ExtResource("23_6gegy")]
+
+[node name="rock_single_D2" parent="." instance=ExtResource("24_dvffc")]
+
+[node name="rock_single_E2" parent="." instance=ExtResource("25_6fhd2")]
+
+[node name="trees_A_cut2" parent="." instance=ExtResource("26_5m0kk")]
+
+[node name="trees_A_large2" parent="." instance=ExtResource("27_2y7tr")]
+
+[node name="trees_A_medium2" parent="." instance=ExtResource("28_tcbod")]
+
+[node name="trees_A_small2" parent="." instance=ExtResource("29_p0yeh")]
+
+[node name="trees_B_cut2" parent="." instance=ExtResource("30_4tues")]
+
+[node name="trees_B_large2" parent="." instance=ExtResource("31_8ik5b")]
+
+[node name="trees_B_medium2" parent="." instance=ExtResource("32_38ia1")]
+
+[node name="trees_B_small2" parent="." instance=ExtResource("33_wrdld")]
+
+[node name="tree_single_A2" parent="." instance=ExtResource("34_v5s2t")]
+
+[node name="tree_single_A_cut2" parent="." instance=ExtResource("35_h86xy")]
+
+[node name="tree_single_B2" parent="." instance=ExtResource("36_qq3al")]
+
+[node name="tree_single_B_cut2" parent="." instance=ExtResource("37_rabjp")]
+
+[node name="waterlily_A2" parent="." instance=ExtResource("38_e4x2l")]
+
+[node name="waterlily_B2" parent="." instance=ExtResource("39_p2dh3")]
+
+[node name="waterplant_A2" parent="." instance=ExtResource("40_5vabu")]
+
+[node name="waterplant_B2" parent="." instance=ExtResource("41_tfsei")]
+
+[node name="waterplant_C2" parent="." instance=ExtResource("42_jun8p")]
+
+[node name="barrel2" parent="." instance=ExtResource("43_b4axe")]
+
+[node name="bucket_arrows2" parent="." instance=ExtResource("44_y0qj2")]
+
+[node name="bucket_empty2" parent="." instance=ExtResource("45_vjxjx")]
+
+[node name="bucket_water2" parent="." instance=ExtResource("46_52l4s")]
+
+[node name="crate_A_big2" parent="." instance=ExtResource("47_8scb2")]
+
+[node name="crate_A_small2" parent="." instance=ExtResource("48_300ie")]
+
+[node name="crate_B_big2" parent="." instance=ExtResource("49_uerjj")]
+
+[node name="crate_B_small2" parent="." instance=ExtResource("50_oqawc")]
+
+[node name="crate_long_A2" parent="." instance=ExtResource("51_vlnu1")]
+
+[node name="crate_long_B2" parent="." instance=ExtResource("52_fa338")]
+
+[node name="crate_long_C2" parent="." instance=ExtResource("53_4h674")]
+
+[node name="crate_long_empty2" parent="." instance=ExtResource("54_ix2jo")]
+
+[node name="crate_open2" parent="." instance=ExtResource("55_dft8f")]
+
+[node name="flag_blue2" parent="." instance=ExtResource("56_mi0jh")]
+
+[node name="flag_green2" parent="." instance=ExtResource("57_sid3j")]
+
+[node name="flag_red2" parent="." instance=ExtResource("58_0oc2i")]
+
+[node name="flag_yellow2" parent="." instance=ExtResource("59_0q2db")]
+
+[node name="ladder2" parent="." instance=ExtResource("60_korbe")]
+
+[node name="pallet2" parent="." instance=ExtResource("61_0io6y")]
+
+[node name="resource_lumber2" parent="." instance=ExtResource("62_svt7d")]
+
+[node name="resource_stone2" parent="." instance=ExtResource("63_koutc")]
+
+[node name="sack2" parent="." instance=ExtResource("64_4njsk")]
+
+[node name="target2" parent="." instance=ExtResource("65_0kwq2")]
+
+[node name="tent2" parent="." instance=ExtResource("66_qkftt")]
+
+[node name="weaponrack2" parent="." instance=ExtResource("67_wd072")]
+
+[node name="wheelbarrow2" parent="." instance=ExtResource("68_jfg1c")]
+
+[node name="hex_grass2" parent="." instance=ExtResource("69_6xxsr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.4, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="hex_grass2"]
+mesh = ExtResource("70_of10n")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="hex_grass2/MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="hex_grass2/MeshInstance3D/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1, 0)
+shape = SubResource("ConvexPolygonShape3D_ax5vb")
+
+[node name="hex_grass_bottom2" parent="." instance=ExtResource("70_b3h5k")]
+
+[node name="hex_grass_sloped_high2" parent="." instance=ExtResource("71_m626w")]
+
+[node name="hex_grass_sloped_low2" parent="." instance=ExtResource("72_j2ke0")]
+
+[node name="hex_water2" parent="." instance=ExtResource("73_gx3g2")]
+
+[node name="hex_road_A2" parent="." instance=ExtResource("74_aoft8")]
+
+[node name="hex_road_A_sloped_high2" parent="." instance=ExtResource("75_l807j")]
+
+[node name="hex_road_A_sloped_low2" parent="." instance=ExtResource("76_y364p")]
+
+[node name="hex_road_B2" parent="." instance=ExtResource("77_uhsb5")]
+
+[node name="hex_road_C2" parent="." instance=ExtResource("78_huyvu")]
+
+[node name="hex_road_D2" parent="." instance=ExtResource("79_4rtba")]
+
+[node name="hex_road_E2" parent="." instance=ExtResource("80_xa07v")]
+
+[node name="hex_road_F2" parent="." instance=ExtResource("81_lpb51")]
+
+[node name="hex_road_G2" parent="." instance=ExtResource("82_s7d3n")]
+
+[node name="hex_road_H2" parent="." instance=ExtResource("83_7i6q4")]
+
+[node name="hex_road_I2" parent="." instance=ExtResource("84_6xre7")]
+
+[node name="hex_road_J2" parent="." instance=ExtResource("85_jew61")]
+
+[node name="hex_road_K2" parent="." instance=ExtResource("86_cwbae")]
+
+[node name="hex_road_L2" parent="." instance=ExtResource("87_kjof0")]
+
+[node name="hex_road_M2" parent="." instance=ExtResource("88_g8g0k")]
+
+[node name="hex_river_A2" parent="." instance=ExtResource("89_o07dg")]
+
+[node name="hex_river_A_curvy2" parent="." instance=ExtResource("90_s4g4k")]
+
+[node name="hex_river_B2" parent="." instance=ExtResource("91_saijc")]
+
+[node name="hex_river_C2" parent="." instance=ExtResource("92_flerq")]
+
+[node name="hex_river_crossing_A2" parent="." instance=ExtResource("93_gw3gb")]
+
+[node name="hex_river_crossing_B2" parent="." instance=ExtResource("94_2ferd")]
+
+[node name="hex_river_D2" parent="." instance=ExtResource("95_hflgq")]
+
+[node name="hex_river_E2" parent="." instance=ExtResource("96_elvpb")]
+
+[node name="hex_river_F2" parent="." instance=ExtResource("97_hlw4p")]
+
+[node name="hex_river_G2" parent="." instance=ExtResource("98_newgk")]
+
+[node name="hex_river_H2" parent="." instance=ExtResource("99_5uwve")]
+
+[node name="hex_river_I2" parent="." instance=ExtResource("100_xo5c4")]
+
+[node name="hex_river_J2" parent="." instance=ExtResource("101_w7ov7")]
+
+[node name="hex_river_K2" parent="." instance=ExtResource("102_gk8kg")]
+
+[node name="hex_river_L2" parent="." instance=ExtResource("103_5g8q7")]
+
+[node name="hex_river_A_curvy_waterless2" parent="." instance=ExtResource("104_ksoyl")]
+
+[node name="hex_river_A_waterless2" parent="." instance=ExtResource("105_ao264")]
+
+[node name="hex_river_B_waterless2" parent="." instance=ExtResource("106_iyuba")]
+
+[node name="hex_river_crossing_A_waterless2" parent="." instance=ExtResource("107_fh72n")]
+
+[node name="hex_river_crossing_B_waterless2" parent="." instance=ExtResource("108_qhafp")]
+
+[node name="hex_river_C_waterless2" parent="." instance=ExtResource("109_ml6ue")]
+
+[node name="hex_river_D_waterless2" parent="." instance=ExtResource("110_l772y")]
+
+[node name="hex_river_E_waterless2" parent="." instance=ExtResource("111_ufeov")]
+
+[node name="hex_river_F_waterless2" parent="." instance=ExtResource("112_7rhud")]
+
+[node name="hex_river_G_waterless2" parent="." instance=ExtResource("113_qhv07")]
+
+[node name="hex_river_H_waterless2" parent="." instance=ExtResource("114_cgunp")]
+
+[node name="hex_river_I_waterless2" parent="." instance=ExtResource("115_q7jq6")]
+
+[node name="hex_river_J_waterless2" parent="." instance=ExtResource("116_hlu7c")]
+
+[node name="hex_river_K_waterless2" parent="." instance=ExtResource("117_1q05f")]
+
+[node name="hex_river_L_waterless2" parent="." instance=ExtResource("118_t60wv")]
+
+[node name="hex_coast_A2" parent="." instance=ExtResource("119_2x2pe")]
+
+[node name="hex_coast_B2" parent="." instance=ExtResource("120_cjhtp")]
+
+[node name="hex_coast_C2" parent="." instance=ExtResource("121_8sr6f")]
+
+[node name="hex_coast_D2" parent="." instance=ExtResource("122_owapo")]
+
+[node name="hex_coast_E2" parent="." instance=ExtResource("123_sa8qu")]
+
+[node name="hex_coast_A_waterless2" parent="." instance=ExtResource("124_t8b06")]
+
+[node name="hex_coast_B_waterless2" parent="." instance=ExtResource("125_yc1kb")]
+
+[node name="hex_coast_C_waterless2" parent="." instance=ExtResource("126_egod0")]
+
+[node name="hex_coast_D_waterless2" parent="." instance=ExtResource("127_fgyn0")]
+
+[node name="hex_coast_E_waterless2" parent="." instance=ExtResource("128_g77ij")]
