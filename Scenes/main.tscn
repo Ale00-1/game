@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://nm62bcecf528" path="res://Scripts/main.gd" id="1_kry3j"]
 [ext_resource type="Script" uid="uid://d0kb4cywr50iq" path="res://proto_controller/proto_controller.gd" id="2_jjvhh"]
 [ext_resource type="Script" uid="uid://bramfpogednyl" path="res://Scripts/Spawn_script.gd" id="3_kry3j"]
-[ext_resource type="Script" uid="uid://c654cdidquxwf" path="res://Scenes/hex_grid_generation.gd" id="5_kry3j"]
+[ext_resource type="Script" uid="uid://c654cdidquxwf" path="res://Scripts/hex_grid_generation.gd" id="5_kry3j"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -59,10 +59,11 @@ wait_time = 0.7
 autostart = true
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.4, 0, 8.5)
 navigation_mesh = SubResource("NavigationMesh_kry3j")
 
-[node name="HexGridGeneration" type="Node3D" parent="NavigationRegion3D"]
+[node name="Node3D" type="Node3D" parent="NavigationRegion3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.4, 0, -8.5)
 script = ExtResource("5_kry3j")
 
 [node name="UI" type="Control" parent="."]
