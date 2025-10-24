@@ -28,7 +28,6 @@ func _on_body_entered(body: Node) -> void:
 		return
 	if body.has_method("take_damage"):
 		body.call('take_damage', damage)
-		print('colisione con: ', body.name)
 	queue_free()
 
 
@@ -37,5 +36,4 @@ func _on_area_3d_body_entered(body: Node3D) -> void:
 		return
 	if body.has_method("take_damage"):
 		body.call('take_damage', damage)
-		print('colisione con: ', body.name)
 	queue_free()

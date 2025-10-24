@@ -8,8 +8,6 @@ var hp = 100
 @onready var anim_tree = $AnimationTree
 @onready var nav_agent = $NavigationAgent3D
 func _ready() -> void:
-	if player != null:
-		print('Player Asignado:', player.name)
 	state_machine = anim_tree.get('parameters/playback')
 func _process(delta: float) -> void:
 	velocity = Vector3.ZERO
@@ -37,10 +35,9 @@ func _hit_finished():
 		player.hit(dir)
 func take_damage(amount : int) -> void:
 	hp -= amount
-	print('enemy took', amount, 'hp left: ', hp)
 	if hp <= 0:
 		die()
 func die():
 	anim_tree.set('parameters/conditions/die', true)
-	await get_tree().create_timer(2.633).timeout
+	await get_tree().create_timer(1.315).timeout
 	queue_free()
